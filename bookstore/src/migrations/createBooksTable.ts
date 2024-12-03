@@ -1,5 +1,3 @@
-// src/migrations/createBooksTable.ts
-
 import pool from "../config/database";
 
 const createBooksTable = async () => {

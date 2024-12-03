@@ -1,5 +1,8 @@
-// src/helpers/validationHelper.ts
 import crypto from "crypto";
+
+export const validateBookTitle = (title: string): boolean => {
+  return title.length >= 3;
+};
 
 export const hashPassword = (password: string): string => {
   return crypto.createHash("sha256").update(password).digest("hex");

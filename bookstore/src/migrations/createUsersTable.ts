@@ -1,5 +1,3 @@
-// src/migrations/createUsersTable.ts
-
 import pool from "../config/database";
 
 const createUsersTable = async () => {

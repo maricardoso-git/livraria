@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <title>Gerenciamento de Livros</title>
+    </head>
+    <body>
+        <header>Sistema de Gerenciamento de Livros</header>
+
+        <div id="principal">
+            <h1>Cadastro de Livros</h1>
+            <form id="form">
+                <label>Title</label>
+                <input type="text" name="txt_title" id="title" required /><br />
+                <label>SubTitle</label>
+                <textarea id="subtitle"></textarea><br />
+                <label>Imagem</label>
+                <input type="text" name="txt_image" id="image" /><br />
+                <label>Price</label>
+                <input type="text" name="txt_price" id="price" /><br />
+                <button id="salvar" type="button">Salvar</button>
+            </form>
+        </div>
+
+        <div id="listLivros">
+            <h1>Listagem de Livros</h1>
+            <div class="linha">
+                <div class="titulo">Title</div>
+                <div class="titulo">Subtitle</div>
+                <div class="titulo">Price</div>
+                <div class="titulo">Opções</div>
+            </div>
+            <div id="listDados">
+                <!-- Os itens serão gerados dinamicamente -->
+            </div>
+        </div>
+
+        <footer>
+            <div class="person-links">
+                <div class="links-container">
+                    <a href="https://www.linkedin.com/in/guilherme-dias-546176262/" target="_blank" class="social-link">
+                        Guilherme Dias
+                        <img src="./icon/linkedin.png" alt="LinkedIn" class="linkedin-icon">
+                    </a>
+                    <a href="https://github.com/Guilherrmee/livraria" target="_blank" class="social-link">
+                        GitHub
+                        <img src="./icon/github.png" alt="GitHub" class="github-icon">
+                    </a>
+                </div>
+            </div>
+            <div class="person-links">
+                <div class="links-container">
+                    <a href="https://www.linkedin.com/in/hiago-damasceno-2b5a41220/" target="_blank" class="social-link">
+                        LinkedIn Hiago Damasceno
+                        <img src="./icon/linkedin.png" alt="LinkedIn" class="linkedin-icon">
+                    </a>
+                    <a href="https://github.com/HISIDA-DAMAS/livraria" target="_blank" class="social-link">
+                        GitHub
+                        <img src="./icon/github.png" alt="GitHub" class="github-icon">
+                    </a>
+                </div>
+            </div>
+            <div class="person-links">
+                <div class="links-container">
+                    <a href="https://www.linkedin.com/in/marizelia-cardoso/" target="_blank" class="social-link">
+                        LinkedIn Marizelia Cardoso
+                        <img src="./icon/linkedin.png" alt="LinkedIn" class="linkedin-icon">
+                    </a>
+                    <a href="https://github.com/maricardoso-git/livraria" target="_blank" class="social-link">
+                        GitHub
+                        <img src="./icon/github.png" alt="GitHub" class="github-icon">
+                    </a>
+                </div>
+            </div>
+            <div class="person-links">
+                <div class="links-container">
+                    <a href="https://www.linkedin.com/in/giovanna-l-56a4102a7/" target="_blank" class="social-link">
+                        LinkedIn Giovanna Lourenço
+                        <img src="./icon/linkedin.png" alt="LinkedIn" class="linkedin-icon">
+                    </a>
+                    <a href="https://github.com/GiodevBra/Giovannadossantosads4nb" target="_blank" class="social-link">
+                        GitHub
+                        <img src="./icon/github.png" alt="GitHub" class="github-icon">
+                    </a>
+                </div>
+            </div>
+            <div class="person-links">
+                <div class="links-container">
+                    <a href="https://www.linkedin.com/in/maria-eduarda-macedo4578-681a85268/" target="_blank" class="social-link">
+                        LinkedIn Maria Eduarda Macedo
+                        <img src="./icon/linkedin.png" alt="LinkedIn" class="linkedin-icon">
+                    </a>
+                    <a href="https://github.com/MariaEduardaMacedo/livraria" target="_blank" class="social-link">
+                        GitHub
+                        <img src="./icon/github.png" alt="GitHub" class="github-icon">
+                    </a>
+
+                </div>
+            </div>
+        </footer>
+        
+        
+        
+        
+
+        <!-- Script no final do corpo -->
+        <script src="js/crud.js"></script>
+    </body>
+</html>
